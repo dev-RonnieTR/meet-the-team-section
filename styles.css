@@ -10,10 +10,25 @@ html {
     font-size: clamp(14px, 3vw, 16px);
 }
 
+body {
+    width: 100vw;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 main {
     display: grid;
-    grid-template-rows: repeat(2, 1fr);
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 288px);
+    grid-template-columns: repeat(4, 284px);
+
+    border: 5px solid red;
+}
+
+main > * {
+    border: 2px solid blue;
 }
 
 .description {
@@ -79,8 +94,15 @@ main {
     grid-row: 2 / 3;
 }
 
-div {
-    border: 1px solid;
+.member {
+    position: relative;
+}
+
+.member-info {
+    position: absolute;
+    z-index: 1;
+    bottom: 5%;
+    left: 5%
 }
 
 /*Typography*/
@@ -99,3 +121,4 @@ p {
     font-size: 1rem;
     font-weight: 400;
 }
+
