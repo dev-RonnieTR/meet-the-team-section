@@ -104,8 +104,8 @@ p {
 
 @media (max-width: 640px) {
     main {
-        grid-template-rows: repeat(7, 603px);
-        grid-template-columns: 603px;
+        grid-template-rows: repeat(7, 91.25vw);
+        grid-template-columns: 90vw;
     }      
     .description {
         grid-row: 1 / 2;
