@@ -23,12 +23,20 @@ main {
 
 .one {
     grid-column: 3 / 4;
-    background-color: #C1B6F8;
+    background: linear-gradient(
+        180deg,
+        rgba(193, 182, 248, 1) 0%,
+        rgba(0, 0, 0, 0.8) 100%
+      );
 }
 
 .two {
     grid-column: 4 / 5;
-    background-color: #EDACD2;
+    background: linear-gradient(
+        180deg,
+        rgba(237, 172, 210, 1) 0%,
+        rgba(0, 0, 0, 0.8) 100%
+      );
 }
 
 .description, .one, .two {
@@ -42,17 +50,29 @@ main {
 
 .three {
     grid-column: 2 / 3;
-    background-color: #9DC4F8;
+    background: linear-gradient(
+        180deg,
+        rgba(157, 196, 248, 1) 0%,
+        rgba(0, 0, 0, 0.8) 100%
+      );
 }
 
 .four {
     grid-column: 3 / 4;
-    background-color: #F8D8B0;
+    background: linear-gradient(
+        180deg,
+        rgba(248, 216, 176, 1) 0%,
+        rgba(0, 0, 0, 0.8) 100%
+      );
 }
 
 .five {
     grid-column: 4 / 5;
-    background-color: #86E7D4;
+    background: linear-gradient(
+        180deg,
+        rgba(134, 231, 212, 1) 0%,
+        rgba(0, 0, 0, 0.8) 100%
+      );
 }
 
 .see-all-members, .three, .four, .five {
