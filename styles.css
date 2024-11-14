@@ -122,7 +122,9 @@ a > img {
     display: inline;
 }
 
-@media (max-width: 640px) {
+
+
+@media (max-width: 640px) and (min-width: 300px) {
     main {
         grid-template-rows: repeat(7, 91.25vw);
         grid-template-columns: 90vw;
@@ -150,6 +152,12 @@ a > img {
     }
     main > div {
         grid-column: 1 / 2;
+    }
+    html {
+        font-size: clamp(16px, 5.3vw, 22px);
+    }
+    h1 {
+        font-size: 2rem;
     }
 }
 
