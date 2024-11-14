@@ -24,6 +24,7 @@ main {
     display: grid;
     border-radius: 24px;
     overflow: hidden;
+    margin: 3vh 0;
 }
 
 img {
