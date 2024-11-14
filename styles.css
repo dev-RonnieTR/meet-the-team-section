@@ -38,6 +38,7 @@ img {
 
 .description {
     background-color: #F3F4F6;
+    padding: 2rem;
 }
 
 .one {
@@ -69,8 +70,8 @@ img {
 .member-info {
     position: absolute;
     z-index: 2;
-    bottom: 5%;
-    left: 5%
+    bottom: 8%;
+    left: 8%
 }
 
 /*Typography*/
@@ -100,6 +101,7 @@ p {
 
 .member-info > p {
     font-weight: 200;
+    font-size: 0.92rem;
 }
 
 a {
